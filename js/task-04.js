@@ -2,7 +2,7 @@ const buttonPlus = document.querySelector('button[data-action="increment"]');
 const buttonMinus = document.querySelector('button[data-action="decrement"]');
 const valueCounter = document.querySelector('#value');
 
-let count = Number(valueCounter.textContent);
+let count = 0;
 
 const сlickPlus = () => {
     valueCounter.textContent = count += 1;
